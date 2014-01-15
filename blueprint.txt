@@ -1,0 +1,28 @@
+This is the blueprint of the stockZ project.
+stockZ is a django-based web application aimed at providing stock evaluation and stock filter function.
+
+Components of stockZ
+1.web scrapper
+ (1)pre-defined url lists for fetching data from web
+ (2)process data to insert into the database
+ (3)check if the data in database alreadly exists
+ (4)check if updated or what condition of database
+ (5)communicate with database 
+ (6)schedule arrange
+2.database
+ (1)sqlite or postgresql
+ (2)ORM design
+3.app 
+ (1)single stock evaluation run by users
+ (2)bucket stock evaluation run by users
+ (3)whole stock filter function
+4.view
+ (1)UI design
+ (2)tabular presentation
+ (3)diagram presentation
+
+-----------------------------
+
+database
+1.prices
+ 
